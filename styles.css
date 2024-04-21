@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(2, 2, 38);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-main {
+    max-width: 220px;
+    height: 320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://cdn.akamai.steamstatic.com/steam/apps/1665460/ss_8f67b3fdf1f56704ae6c7fcc38b57036514afd8b.1920x1080.jpg?t=1713163424");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 10px 10px;
+}
+
+.container-secondary  {
+    max-width: 450px;
+    height: 320px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.btn-genuino {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(69, 113, 244);
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 180px;
+    font-weight: 500;
+}
+ 
+.btn-login {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #2d60d6;
+    background-color: #303742;
+    margin-top: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.maintenance {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
