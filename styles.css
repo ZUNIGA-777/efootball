@@ -32,6 +32,8 @@ body {
     background-color: rgb(46, 46, 46);
     text-align: center;
     border-radius: 16px;
+    padding: 10px 25px;
+    margin: 25px;
 }
 
 .btn-genuino {
@@ -53,6 +55,7 @@ body {
     margin-top: 120px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .maintenance {
